@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "italic";
+  src: url("../fonts/Roboto-LightItalic.ttf") format("ttf");
+}
+.navbar {
+  /* position: fixed; */
+}
+
+.links-navbar {
+  display: flex;
+  justify-content: center;
+}
+.title-navbar {
+  font-family: "italic", sans-serif;
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+.lign {
+  width: 50%;
+  border-bottom: 1px solid #000;
+  width: 600px;
+  margin: auto;
+  margin-bottom: 25px;
+}
+
+.text-navbar {
+  text-decoration: none;
+  margin-right: 25px;
+  padding-top: 25px;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  font-family: "italic", sans-serif;
+  color: #434560;
+}
