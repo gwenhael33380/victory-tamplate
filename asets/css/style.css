@@ -41,10 +41,12 @@ a {
 /* -----------------sectionOrder------------------------- */
 .section-order-bg {
   background-image: url("../img/banner-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: auto;
   margin-top: 20px;
   padding-top: 150px;
   padding-bottom: 150px;
-  background-position: center;
 }
 .contait-order {
   width: 500px;
