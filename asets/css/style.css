@@ -7,7 +7,20 @@ a {
 }
 /* ------------------------navBar---------------------------- */
 .navbar {
-  /* position: fixed; */
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  transition: all 0.3s ease-in-out;
+}
+.display-navBar {
+  padding-bottom: 15px;
+}
+.navbar.scroll {
+  background-color: #434560;
+  color: white;
+  opacity: 0.9;
 }
 
 .links-navbar {
@@ -16,6 +29,7 @@ a {
 }
 .title-navbar {
   font-family: "italic", sans-serif;
+  font-style: italic;
   text-align: center;
   font-size: 25px;
   margin-bottom: 25px;
@@ -38,15 +52,29 @@ a {
   font-family: "italic", sans-serif;
   color: #434560;
 }
+.text-navbar.scroll-text1 {
+  color: white !important;
+}
+.text-navbar.scroll-text2 {
+  color: white !important;
+}
+.text-navbar.scroll-text3 {
+  color: white !important;
+}
+.text-navbar.scroll-text4 {
+  color: white !important;
+}
 /* -----------------sectionOrder------------------------- */
 .section-order-bg {
   background-image: url("../img/banner-bg.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  width: auto;
-  margin-top: 20px;
+  background-size: cover;
+  margin-top: 150px;
   padding-top: 150px;
   padding-bottom: 150px;
+
+  /* width: 100vh; */
 }
 .contait-order {
   width: 500px;
@@ -81,3 +109,48 @@ a {
 }
 
 /* ---------------------------------------------- */
+/* ---------------Section reservation------------ */
+.section-contact {
+  margin-top: 180px;
+}
+.flex-section2 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.containt-format {
+  background-color: #f2745e;
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.title-section2 {
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  padding-top: 25px;
+}
+.bg-contact {
+  background-color: #f3836f;
+  margin: 0px 20px;
+}
+.containt-contact {
+  color: white;
+  text-align: center;
+}
+.button-section2 {
+  padding: 5px 25px 5px 25px;
+  background-color: white;
+  border-radius: 5px;
+  color: #f2745e;
+  text-transform: uppercase;
+  font-size: 5px;
+  font-weight: 700;
+}
+.display-img {
+  margin-left: 175px;
+  margin-right: 175px;
+}
